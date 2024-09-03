@@ -3,6 +3,7 @@ import { NavigationContainer } from "@react-navigation/native"
 import { DrawerRoutes } from './src/layout';
 import SplashScreen from './src/screens/splash-screen';
 import { useEffect, useState } from 'react';
+import CounterProvider from './src/screens/home/components/counter';
 
 
 
@@ -22,9 +23,12 @@ const App = () => {
       {visible ? (
         <SplashScreen />
       ) : (
-        <DrawerRoutes />
-      )}
-    </NavigationContainer>
+        <CounterProvider>
+          <DrawerRoutes />
+        </CounterProvider>
+      )
+      }
+    </NavigationContainer >
 
   )
 }
