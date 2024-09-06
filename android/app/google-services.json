@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1058963391719",
+    "project_id": "react-native-training-f241f",
+    "storage_bucket": "react-native-training-f241f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1058963391719:android:a3f3916a961e2a148b8e42",
+        "android_client_info": {
+          "package_name": "com.classapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJjomBKOPbUBlemDTjf_Zh6-MLF09mZoo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
